@@ -7,10 +7,10 @@ from rembg import remove
 from telebot import types
 from pymongo import MongoClient
 
-TOKEN = "Your Bot token"
-MONGO_URI = "Your mongo uri"
+TOKEN = "7628087790:AAFADZ1UQ1II7ECu2zwnctkbCbziDKW0QsA"
+MONGO_URI = "mongodb+srv://mrshokrullah:L7yjtsOjHzGBhaSR@cluster0.aqxyz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 IMAGES_DIR = 'images'
-PRIVATE_CHANNEL_ID = -1002235773657  # Replace with your actual private channel ID
+PRIVATE_CHANNEL_ID = -1002410423843  # Replace with your actual private channel ID
 
 bot = telebot.TeleBot(TOKEN)
 
